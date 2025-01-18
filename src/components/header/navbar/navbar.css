@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.navbar-links a {
+  all: unset;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  margin-left: 200px;
+  padding: 0 0  ;
+  width: 100px; /* Set desired width */
+  height: 100px; /* Set desired height */
+}
+
+.navbar-user-info {
+  background-image: url('https://www.shutterstock.com/image-vector/user-icon-trendy-flat-style-600w-418179865.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px; /* Set width */
+  height: 40px; /* Set height */
+  border-radius: 50%; /* Make it circular */
+  margin-left: 10px; /* Adjust spacing if needed */
+  cursor: pointer;
+}
